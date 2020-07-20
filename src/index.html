@@ -2,11 +2,39 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>car-validation</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
+    <center>
+      <header> ENCABEZADO </header>
+  <div class="contenedor">
+    <section class="card" id="card">
+      <div class ="frontal">
+        <div class="datos">
+            <div class="grupo" id="numero">
+            <p class="label"> Número de Tarjeta </p>
+            <p class="numero"> #### #### #### #### </p>
+            </div>
+            <div class="grupo" id="nombre">
+            <p class="label"> Nombre de Tarjeta </p>
+            <p class="nombre"> xxxxxxxxx </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <form action="" id="formulario-tarjeta" class="fomulario-tarjeta">
+      <div class="grupo">
+          <label for="input-numero"> Numero de Tarjeta </label>
+          <input type="text" id="inputNumero" maxlength="16" autocomplete="off" parse>
+      </div>
+      <div class="grupo">
+          <label for="input-nombre"> Nombre de Tarjeta </label>
+          <input type="text" id="inputnombre">
+      </div>
+    <button onclick="GuardarDigitos();"> VALIDAR </button>
+</center>
     <main></main>
     <footer></footer>
     <script src="index.js" type="module"></script>
