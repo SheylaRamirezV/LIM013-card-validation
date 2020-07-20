@@ -3,17 +3,17 @@
 //console.log(validator);
 
 
-function (GuardarDigitos) {
+//function (GuardarDigitos) {
         // Obtiene el valor puesto en número de tarjeta
-        var digitos = document.getElementById("PonerNumero").value;}
+        //var digitos = document.getElementById("PonerNumero").value;}
     alert("HOLA");
         // Guardo informacion en el storage
 
-    if (typeof(Storage) !== "undefined") {
-        localStorage.setItem("PonerNumero", Digitos);
+    //if (typeof(Storage) !== "undefined") {
+        //localStorage.setItem("PonerNumero", Digitos);
 
 
-    alert(Digitos);
+    //alert(Digitos);
 
   }
 }
