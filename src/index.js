@@ -1,6 +1,6 @@
-import validator from './validator.js';
+//import validator from './validator.js';
 
-console.log(validator);
+//console.log(validator);
 
 
 function (GuardarDigitos) {
