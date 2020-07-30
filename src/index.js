@@ -1,19 +1,43 @@
-//import validator from './validator.js';
+import validator from './validator.js';
 
-//console.log(validator);
+console.log(validator);
 
+let btn = document.getElementById("btn");
+btn.addEventListener("click", ValidarDigitos)
 
-//function (GuardarDigitos) {
-        // Obtiene el valor puesto en número de tarjeta
-        //var digitos = document.getElementById("PonerNumero").value;}
-    alert("HOLA");
-        // Guardo informacion en el storage
+function ValidarDigitos() {
+        // Obtiene el valor del elemento del Id
+       let NumeroDeTarjeta= document.getElementById("PonerNumero").value;
+       validator.isValid(NumeroDeTarjeta)
+       validator.maskify(NumeroDeTarjeta)
 
-    //if (typeof(Storage) !== "undefined") {
-        //localStorage.setItem("PonerNumero", Digitos);
+    console.log("Numero de Tarjeta es =" + NumeroDeTarjeta);
 
+      // genero un arreglo para que mi cadena se guarde por cada digito.
+      let ArregloNumeroDeTarjeta= NumeroDeTarjeta.split("");
+    console.log(ArregloNumeroDeTarjeta);
+      //Pone mi arreglo en reverso
+      let NumeroDeTarjetaReverso= ArregloNumeroDeTarjeta.reverse();
+    console.log(NumeroDeTarjetaReverso);
 
-    //alert(Digitos);
-
-  }
+    //Empieza mi validación en Luhm
+   let SumaTotal= 0;
+     for(let i=0; i<NumeroDeTarjetaReverso.length; i++){
+       let CadaNumero= NumeroDeTarjetaReverso[i];
+       if((i % 2) != 0){
+         // arregloVacio.push(CadaNumero *= 2;)
+           CadaNumero *= 2;
+             if(CadaNumero > 9){
+               CadaNumero -= 9;
+           }
+       }
+       SumaTotal += CadaNumero
+   }
+       if( SumaTotal % 10 ==0)
+     {
+   return alert("LA TARJETA ES VALIDA");
+     }
+ else{
+   return alert("LA TARJETA ES INVALIDA");
+     }
 }

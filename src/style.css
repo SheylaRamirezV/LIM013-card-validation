@@ -1,1 +1,28 @@
-.contenedor
+
+body{
+
+}
+
+header{
+  background: url("Imagenes/encabezado1.jpg");
+  background-size: 400px 110px;
+  background-repeat:no-repeat;
+  width:330px;
+  height:10px;
+  padding: 50px;
+}
+
+.frontal{
+width:400px;
+height: 250px;
+background: url("Imagenes/fondo-tarjeta1.jpg");
+background-size:  380px 250px;
+background-repeat:no-repeat;
+}
+
+.grupo{
+  position: relative;
+  top:120px;
+  left: -120px;
+
+}
