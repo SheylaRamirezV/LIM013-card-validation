@@ -1,28 +1,75 @@
-
 body{
+  background:url("Imagenes/fondo.jpg");
+  background-size: 100% 100%;
 
 }
-
 header{
-  background: url("Imagenes/encabezado1.jpg");
-  background-size: 400px 110px;
+  background: url("Imagenes/encabezado.jpg");
+  background-size: 1340px 120px;
   background-repeat:no-repeat;
-  width:330px;
-  height:10px;
-  padding: 50px;
+  width:1200px;
+  padding: 60px;
+}
+
+.contenedor{
+  width: 90%;
+  max-width: 1000px;
+  padding: 40px 20px;
+  margin:auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .frontal{
-width:400px;
-height: 250px;
+width:566px;
+height: 280px;
 background: url("Imagenes/fondo-tarjeta1.jpg");
 background-size:  380px 250px;
 background-repeat:no-repeat;
+z-index: 2;
 }
-
-.grupo{
+.datos{
   position: relative;
   top:120px;
-  left: -120px;
+  left: 10px;
+}
 
+.frontal .grupo .label{
+  font-size: 16px;
+  color: #7d8994;
+  margin-bottom: 3px;
+}
+
+.frontal .grupo .numero
+.frontal .grupo .nombre{
+  color: negro;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.formulario-tarjeta{
+  background: #FF685F;
+  width: 100%;
+  max-width: 700px;
+  padding: 120px 30px 30px 30px;
+  border-radius: 10px;
+  position: relative;
+  top: -150px;
+  z-index: 1;
+}
+
+.formulario-tarjeta label{
+  display: block;
+  color: #7d8994;
+  font-size: 16px;
+}
+
+.formulario-tarjeta input{
+  border: 2px solid #CED6E0;
+  font-size: 18px;
+  height: 30px;
+  width: 100%;
+  padding: 5px 8px;
+  border-radius: 7px;
 }
