@@ -13,6 +13,7 @@
  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
  5. Imagen del prototipo final.
 
+https://sheylaramirezv.github.io/LIM013-card-validation/src/
 Para poder acceder a la web-app necesitamos ejecutar este link() , donde los podrá llevar de forma directa . Este proyecto se basa en validar diferentes números de tarjeta mediante el logaritmo de Luhm, mostrando un mensaje si es válido o invalido, siguiendo las siguientes pautas.
 Logaritmo de Luhm:
 1. El número campturado de 16 digitos, se debe convertir en un arreglo es decir capturar cada número. (.split)
