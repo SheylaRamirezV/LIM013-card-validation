@@ -1,8 +1,9 @@
 body{
   background:url("Imagenes/fondo.jpg");
-  background-size: 100% 100%;
-
+  background-size: 100%;
+  background-repeat:no-repeat;
 }
+
 header{
   background: url("Imagenes/encabezado.jpg");
   background-size: 1340px 120px;
@@ -14,7 +15,7 @@ header{
 .contenedor{
   width: 90%;
   max-width: 1000px;
-  padding: 40px 20px;
+  padding: 30px 100px;
   margin:auto;
   display: flex;
   flex-direction: column;
@@ -29,16 +30,17 @@ background-size:  380px 250px;
 background-repeat:no-repeat;
 z-index: 2;
 }
+
 .datos{
   position: relative;
-  top:120px;
-  left: 10px;
+  top:109px;
+  left:25px;
 }
 
 .frontal .grupo .label{
-  font-size: 16px;
+  font-size: 20px;
   color: #7d8994;
-  margin-bottom: 3px;
+  margin-bottom: -13px;
 }
 
 .frontal .grupo .numero
@@ -49,27 +51,39 @@ z-index: 2;
 }
 
 .formulario-tarjeta{
-  background: #FF685F;
-  width: 100%;
-  max-width: 700px;
-  padding: 120px 30px 30px 30px;
-  border-radius: 10px;
-  position: relative;
-  top: -150px;
-  z-index: 1;
-}
+    border: #FFA70C 8px double;
+    background: #F9F9F9;
+    width: 100%;
+    max-width: 700px;
+    padding: 120px 25px 30px 30px;
+    border-radius: 10px;
+    position: relative;
+    top: -140px;
+    z-index: 1;
 
-.formulario-tarjeta label{
+  }
+
+  .formulario-tarjeta label{
   display: block;
-  color: #7d8994;
-  font-size: 16px;
+  color: black;
+  font-size: 23px;
 }
 
 .formulario-tarjeta input{
-  border: 2px solid #CED6E0;
-  font-size: 18px;
-  height: 30px;
-  width: 100%;
+  border: 2px solid #CED6E0 ;
+  background: #CED6E0;
+  font-size: 17px;
+  height: 27px;
+  width: 85%;
   padding: 5px 8px;
   border-radius: 7px;
+}
+
+
+.formulario-tarjeta #btn {
+border-radius: 6px;
+font-size: 17px;
+margin: 18px;
+padding: 8px;
+background:
 }

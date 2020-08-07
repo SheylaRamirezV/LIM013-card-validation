@@ -4,7 +4,7 @@ const validator = {
     //Genero un Arreglo para que mi numero general sea de manera unitaria
     let ArregloNumeroDeTarjeta= NumeroDeTarjeta.split("");
   console.log(ArregloNumeroDeTarjeta);
-    //Pone mi arreglo en reverso
+    //Pone mi arreglo en reverso para que mi arreglo se vea en orden invertido
     let NumeroDeTarjetaReverso= ArregloNumeroDeTarjeta.reverse();
   console.log(NumeroDeTarjetaReverso);
   //Empieza mi validación en Luhm
@@ -27,23 +27,22 @@ const validator = {
      SumaTotal += CadaPar;
  }
  console.log(SumaTotal);
- // Si mi SumaTotal si al dividir entre 10 es igual a cero
+ // Si mi SumaTotal si al dividir entre 10 es igual a cero me retornara tru , de lo contrario falso.
      if( SumaTotal % 10 ==0)
    {
- return alert("LA TARJETA ES VALIDA");
+ return true;
    }
 else{
- return alert("LA TARJETA ES INVALIDA");
+ return false;
   }
 },
 
-
-maskify:
+maskify: //funcion para que se oculten 12 digitos y solo se muestren los 4 ultimos.
 function(Ocultar){
   let maskify2= "";
   for(let i=0; i<Ocultar.length; i++){
     if(i<= Ocultar.length -5){
-      maskify2=maskify2 + "*"
+      maskify2=maskify2 + "#"
     } else {
       maskify2=maskify2 + Ocultar[i]
 
@@ -52,6 +51,7 @@ function(Ocultar){
 console.log(maskify2);
 return maskify2
  }
+
 }
 
 export default validator;
