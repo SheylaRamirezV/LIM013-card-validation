@@ -27,5 +27,5 @@ La necesidad de poder adquirirlos es para poder ir a algún acontecimiento depor
 
 ![WhatsApp Image 2020-08-07 at 1 23 54 AM (1)](https://user-images.githubusercontent.com/68232942/89673626-4c0b3980-d8ac-11ea-93bf-86ad66682f47.jpeg)
 ![WhatsApp Image 2020-08-07 at 1 23 54 AM](https://user-images.githubusercontent.com/68232942/89673763-8e347b00-d8ac-11ea-9c8c-c93cb6a16d80.jpeg)
-![imagen2](https://user-images.githubusercontent.com/68232942/89673801-a3110e80-d8ac-11ea-894e-82bc22f07d4d.jpg
+![imagen2](https://user-images.githubusercontent.com/68232942/89673801-a3110e80-d8ac-11ea-894e-82bc22f07d4d.jpg)
 ![imagen1](https://user-images.githubusercontent.com/68232942/89673838-b15f2a80-d8ac-11ea-8973-edb296eb5b95.jpg)
