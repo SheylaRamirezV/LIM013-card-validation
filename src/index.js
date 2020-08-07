@@ -23,8 +23,6 @@ let divF=document.getElementById("valido");
   } else{
     divF.innerHTML="Tu tarjeta es INVALIDA";
   }
-
-//let divM=document.getElementById("validoMaskify");
 cajitaVariable.innerHTML=ocultar;
   });
 
