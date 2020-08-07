@@ -24,4 +24,8 @@ Logaritmo de Luhm:
 ###UX:
 La web-app creada va directamente a los usuarios que quieren adquirir (mediante una gif card)algún producto de “La Blanquirroja”, para ello primero se le pide la validación y asi empezar con la elección de los productos.
 La necesidad de poder adquirirlos es para poder ir a algún acontecimiento deportivo o vida diaria, mostrando el hinchaje que tienen por el Perú.
-![WhatsApp Image 2020-08-07 at 1 23 54 AM (1)](https://user-images.githubusercontent.com/68232942/89673483-0fd7d900-d8ac-11ea-92a5-d827283a3cfe.jpeg)
+
+![WhatsApp Image 2020-08-07 at 1 23 54 AM (1)](https://user-images.githubusercontent.com/68232942/89673626-4c0b3980-d8ac-11ea-93bf-86ad66682f47.jpeg)
+![WhatsApp Image 2020-08-07 at 1 23 54 AM](https://user-images.githubusercontent.com/68232942/89673763-8e347b00-d8ac-11ea-9c8c-c93cb6a16d80.jpeg)
+![imagen2](https://user-images.githubusercontent.com/68232942/89673801-a3110e80-d8ac-11ea-894e-82bc22f07d4d.jpg
+![imagen1](https://user-images.githubusercontent.com/68232942/89673838-b15f2a80-d8ac-11ea-8973-edb296eb5b95.jpg)
